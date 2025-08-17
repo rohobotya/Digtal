@@ -34,7 +34,7 @@ document.getElementById('loginBtn').addEventListener('click', () => {
                 if (snapshot.exists()) {
                     const userData = snapshot.val();
                     if (userData.approved && userData.prepayment_status === "approved") {
-                        window.location.href = "https://rohobotya.github.io/www.zowipromotion.com/";
+                        window.location.href = "https://skillshop.exceedlms.com/student/activity/1384851-fundamentals-of-digital-marketing?sid=16d9507a-297a-4f91-90f2-0a7ae0";
                     } else {
                         statusEl.textContent = "Account not approved or prepayment pending.";
                         statusEl.style.color = "red";
